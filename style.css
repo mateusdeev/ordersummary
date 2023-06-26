@@ -1,0 +1,111 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/images/pattern-background-desktop.svg );
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50% , -50%);
+    width: 420px;
+    height: 600px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.mulher{
+    position: relative;
+    border-radius: 10px 10px 0px 0px;
+    height: 205px;
+}
+
+p {
+    font-size: 25px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    color: gray;
+    font-size: 15px;
+}
+
+.Pagamento {
+    background-color:  #7D79D9;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    font-family: 'Red Hat Display', sans-serif;
+    width: 300px;
+    height: 40px;
+    left: 60px;
+    top: 60px;
+    box-shadow: 1px 2px 12px black;
+
+}
+
+.fundo {
+    position: relative;
+    top: 10px;
+    left: 30px;
+    width: 350px;
+height: 80px;
+   background-color: #c9cacf3a;
+   border-radius: 20px;
+}
+
+h4 {
+    font-family: 'Red Hat Display', sans-serif;
+    position: relative;
+    left: 80px;
+    bottom: 35px;
+}
+h5 {
+    position: relative;
+    left: 85px;
+    bottom: 30px;
+    color: gray;
+}
+
+h6 {
+    position: relative;
+    left: 170px;
+    top: 80px;
+    font-size: 15px;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    left: 250px;
+    bottom: 60px;
+}
+
+.music {
+    position: relative;
+    top: 15px;
+    left: 15px;
+
+}
